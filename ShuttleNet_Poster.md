@@ -128,7 +128,7 @@ Train 3 models (seeds 42 / 123 / 456). Average raw logits across models, then ap
 | Submission | Score | Rank |
 |---|---|---|
 | Official Baseline (LSTM) | 0.289 | — |
-| Single seed CE | 0.3189 | 216 / 380 |
+| Single seed CE | 0.3189 | 250 / 423 |
 | **3-Seed Focal Ensemble** | **0.3318** | **168 / 423** |
 
 ### Key Takeaways
