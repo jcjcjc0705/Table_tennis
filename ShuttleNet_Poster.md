@@ -1,4 +1,4 @@
-# ShuttleNet: A Dual-Encoder Transformer for Table Tennis Shot and Rally Prediction
+# Table Tennis Tactics and Outcome Prediction Based on Time Series Data
 
 **National Cheng Kung University · AIdea Competition — Table Tennis Tactics & Outcome Prediction · 2026**
 
