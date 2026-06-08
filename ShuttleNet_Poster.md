@@ -115,13 +115,14 @@ Train 3 models (seeds 42 / 123 / 456). Average raw logits across models, then ap
 
 ## Experiments & Results
 
-### Validation Results (10% match-level split)
+### Validation Results
 
-| Model | F1_act | F1_pt | AUC | Score |
-|---|---|---|---|---|
-| CE baseline (seed 42) | 0.3139 | 0.2354 | 0.9331 | 0.3426 |
-| Focal γ=2.0 (seed 42) | 0.2945 | 0.2373 | 0.9219 | 0.3344 |
-| **3-Seed Focal Ensemble** | **0.2684** | **0.2273** | **0.9241** | **0.3831** |
+| Model | Val Split | F1_act | F1_pt | AUC | Val Score | LB Score |
+|---|---|---|---|---|---|---|
+| Official Baseline (LSTM, 3 ep) | random 10% | 0.3229 | 0.1942 | 0.9953 | 0.4059 | 0.289 |
+| ShuttleNet CE (seed 42) | match-level 10% | 0.3139 | 0.2354 | 0.9331 | 0.3426 | — |
+| ShuttleNet Focal γ=2.0 (seed 42) | match-level 10% | 0.2945 | 0.2373 | 0.9219 | 0.3344 | — |
+| **ShuttleNet 3-Seed Focal Ensemble** | match-level 10% | **0.2684** | **0.2273** | **0.9241** | **0.3831** | **0.3318** |
 
 ### Leaderboard
 
